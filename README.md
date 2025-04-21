@@ -34,9 +34,9 @@ PoC for exploitation XSS in plataform Sabio Virtual
 
 ![image](https://github.com/user-attachments/assets/9b062955-015f-4132-ae39-9a238a60d260)
 
-![image](https://github.com/user-attachments/assets/886057a8-45b8-4be3-a944-48af4f00b88c)
+![image](https://github.com/user-attachments/assets/eb53bc9c-32e8-4b1b-bf4a-c7f7b0051d19)
 
 7 - The payload will execute automatically
 
-
+![image](https://github.com/user-attachments/assets/886057a8-45b8-4be3-a944-48af4f00b88c)
 
