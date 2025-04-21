@@ -1,4 +1,6 @@
 # PoCVulDb
+# VIDEO POC: https://www.youtube.com/watch?v=VSlHH0Ecfp8
+
 PoC for exploitation XSS in plataform Sabio Virtual
 
 1 - Register for an account on the platform.
