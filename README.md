@@ -1,4 +1,4 @@
-# VIDEO POC:[ [xxxx](https://youtu.be/X7DJmOtNqxU)](https://www.youtube.com/watch?v=X7DJmOtNqxU)
+# VIDEO POC: https://www.youtube.com/watch?v=X7DJmOtNqxU
 #📄 PoC for Exploitation: Stored XSS in WeGIA **3.4.0**
 #Vulnerability Type: Stored Cross-Site Scripting (XSS)
 #Affected Application: **WeGIA 3.4.0**
