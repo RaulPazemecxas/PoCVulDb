@@ -1,5 +1,10 @@
-# PoCVulDb
-# VIDEO POC: xxxx
+# VIDEO POC:[ [xxxx](https://youtu.be/X7DJmOtNqxU)](https://www.youtube.com/watch?v=X7DJmOtNqxU)
+#📄 PoC for Exploitation: Stored XSS in WeGIA **3.4.0**
+#Vulnerability Type: Stored Cross-Site Scripting (XSS)
+#Affected Application: **WeGIA 3.4.0**
+#Vulnerability Location: /html/matPat/adicionar_unidade.php
+#Impact: Persistent execution of arbitrary JavaScript code in the context of the application
+
 
 PoC for exploitation stored XSS in WeGIA
 
