@@ -1,44 +1,34 @@
 # PoCVulDb
-# VIDEO POC: https://www.youtube.com/watch?v=VSlHH0Ecfp8
+# VIDEO POC: xxxx
 
-PoC for exploitation XSS in plataform Sabio Virtual
+PoC for exploitation stored XSS in WeGIA
 
-1 - Register for an account on the platform.
+1 - Login in platform:
 
-![image](https://github.com/user-attachments/assets/bebeb485-ffe2-41a6-9571-843440fbf1bb)
-
-![image](https://github.com/user-attachments/assets/dbad2a18-5c9b-41e9-a6fd-f0398c3ce592)
-
-![image](https://github.com/user-attachments/assets/6156359d-6131-4562-82cc-40816954db06)
+![image](https://github.com/user-attachments/assets/64fd1586-9787-4d70-a9a2-2ada710fc98a)
+![image](https://github.com/user-attachments/assets/b9839e9f-e4ef-43b4-8291-dade94ffcf67)
 
 
-2 - Go to “Knowledge Base” (BASE DE CONHECIMENTO) from the sidebar menu (magnifying glass icon).
+2 - Vá para a seção "Material e Patrimonio > Entrada > Registrar Entrada":
+![image](https://github.com/user-attachments/assets/553b4364-b14d-4edd-871f-75ffb84172b7)
+![image](https://github.com/user-attachments/assets/1f91f1ef-c5c1-4d0e-8dc1-332e64882a5e)
 
-![image](https://github.com/user-attachments/assets/c0940b68-8f25-4ed8-94d2-35aaeb82d219)
+3 - Na seção /html/matPat/cadastro_entrada.php, clique no "+" da aba Produto
 
-3 - Click “New Article” ("Novo Artigo").
+![image](https://github.com/user-attachments/assets/50e0aa4e-52ee-4bad-b34a-68352c64e2fe)
 
-![image](https://github.com/user-attachments/assets/f15ccfe2-9386-4e36-87ed-34b7adf411aa)
+4 - Na seção /html/matPat/cadastro_produto.php, clique no "+" da aba Unidade 
 
-4 - In both the title and content fields, insert the following payload:
+![image](https://github.com/user-attachments/assets/5a8dcfdf-448b-432b-825f-e1b842974b1d)
 
-<script>alert('Stored XSS POC VulDB')</script>
+5 - Na seção /html/matPat/adicionar_unidade.php, cadastre uma unidade com o payload XSS, <script>alert('Poc VulDB')</script> e clique no primeiro botão "enviar"
 
-![image](https://github.com/user-attachments/assets/622c1767-05a0-439e-ad44-a1e0546e992e)
+![image](https://github.com/user-attachments/assets/ae94694a-e110-4554-81ae-dbbea852bc03)
+![image](https://github.com/user-attachments/assets/456c411a-ffe9-41fd-885e-19341d61eb12)
 
-5 - Click “Save”.
+6 - o payload vai ficar armazenado e será carregado sempre que a seção /html/matPat/cadastro_produto.php for carregada, caracterizando um Stored Cross Site Scripting.
 
-![image](https://github.com/user-attachments/assets/0bdb1290-2210-4664-ba3d-d0349066237f)
+![image](https://github.com/user-attachments/assets/94093c93-ce08-4c36-97a4-27a2e7a273b1)
 
-![image](https://github.com/user-attachments/assets/30d53aa9-2f15-49b7-ba92-f66f9684b359)
 
-6 - Navigate to “Records > Requests > Subjects Attended” (CADASTROS>CHAMADOS>ASSUNTOS ATENDIDOS).
-
-![image](https://github.com/user-attachments/assets/9b062955-015f-4132-ae39-9a238a60d260)
-
-![image](https://github.com/user-attachments/assets/eb53bc9c-32e8-4b1b-bf4a-c7f7b0051d19)
-
-7 - The payload will execute automatically
-
-![image](https://github.com/user-attachments/assets/886057a8-45b8-4be3-a944-48af4f00b88c)
 
