@@ -1,46 +1,47 @@
-# VIDEO POC: https://www.youtube.com/watch?v=X7DJmOtNqxU
+# VIDEO POC: 
 
-#📄 PoC for Exploitation: Stored XSS in WeGIA **3.4.0**
+#📄 PoC for Exploitation: Stored XSS Automad flat-file CMS **2.0.0-alpha.37**
 
 #Vulnerability Type: Stored Cross-Site Scripting (XSS)
 
-#Affected Application: **WeGIA 3.4.0**
+#Affected Application: **Automad flat-file CMS**
 
-#Vulnerability Location: /html/matPat/adicionar_unidade.php
+#Vulnerability Location: 
 
 #Impact: Persistent execution of arbitrary JavaScript code in the context of the application
 
+Step by Step
 
-PoC for exploitation stored XSS in WeGIA
+1 - Access the Automad CMS dashboard at:
 
-1 - Log in to the platform.:
-
-![image](https://github.com/user-attachments/assets/64fd1586-9787-4d70-a9a2-2ada710fc98a)
-![image](https://github.com/user-attachments/assets/b9839e9f-e4ef-43b4-8291-dade94ffcf67)
-
-
-2 - Go to the section "Material e Patrimonio > Entrada > Registrar Entrada":
-![image](https://github.com/user-attachments/assets/553b4364-b14d-4edd-871f-75ffb84172b7)
-![image](https://github.com/user-attachments/assets/1f91f1ef-c5c1-4d0e-8dc1-332e64882a5e)
-
-3 - On the page /html/matPat/cadastro_entrada.php, click the "+" button under the "Produto" tab.
-
-![image](https://github.com/user-attachments/assets/50e0aa4e-52ee-4bad-b34a-68352c64e2fe)
-
-4 - On the page /html/matPat/cadastro_produto.php, click the "+" button under the "Unidade" tab.
-
-![image](https://github.com/user-attachments/assets/5a8dcfdf-448b-432b-825f-e1b842974b1d)
-
-5 - On the page /html/matPat/adicionar_unidade.php, register a new unit using the following XSS payload:
- <script>alert('Poc VulDB')</script>
- Then, click the first "Enviar" button to submit the form.
-
-![image](https://github.com/user-attachments/assets/ae94694a-e110-4554-81ae-dbbea852bc03)
-![image](https://github.com/user-attachments/assets/456c411a-ffe9-41fd-885e-19341d61eb12)
-
-6 - The payload will be stored in the system and will be executed every time the page /html/matPat/cadastro_produto.php is loaded, confirming the presence of a Stored Cross-Site Scripting (XSS) vulnerability.
-
-![image](https://github.com/user-attachments/assets/94093c93-ce08-4c36-97a4-27a2e7a273b1)
+/dashboard/page
+![image](https://github.com/user-attachments/assets/7f8c8993-7273-45fd-b877-07d20c574b30)
+![image](https://github.com/user-attachments/assets/50290977-ea36-4b30-87e8-5a5c4158b936)
 
 
+2 - Go to "General Data and Files"
+![image](https://github.com/user-attachments/assets/b1d9a100-8989-472a-9691-a5f44ea42673)
 
+Faça o scroll até o campo "Brand"
+![image](https://github.com/user-attachments/assets/507052d7-f705-4815-82a9-095d6bd96972)
+
+3 - No campo Brand, insira o payload JavaScript:
+
+![image](https://github.com/user-attachments/assets/a4e10370-3487-40bc-a8cd-9954e3ae6add)
+
+
+<script>alert('PoC VulDB Automad CMS')</script>
+
+4 - Click em publish
+
+![image](https://github.com/user-attachments/assets/f03e3ebc-1073-4f51-889d-987b8b4e1ca9)
+
+3 - Navigate to the public-facing page of the new content:
+![image](https://github.com/user-attachments/assets/72623244-7041-40fb-9991-9b5ade42efb9)
+
+/demo/{page-id}/
+
+The JavaScript code will be executed immediately, confirming the stored XSS.
+
+
+VENDOR: https://github.com/automadcms/automad-standard-v1
