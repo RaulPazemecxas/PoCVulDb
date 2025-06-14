@@ -13,7 +13,10 @@ Vulnerable Component
 **Impact: Stored JavaScript payload is triggered when the page loads.**
 
 Steps to Reproduce
+
+
 1 - Open the modal by clicking the Add Recipe button:
+
 ![image](https://github.com/user-attachments/assets/63355914-dcb3-4f89-bf44-bfcfc34cddde)
 
 <button type="button" class="btn btn-add-food btn-secondary" data-toggle="modal" data-target="#addRecipeModal">Add Recipe</button>
