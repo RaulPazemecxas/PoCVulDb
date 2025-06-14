@@ -36,12 +36,15 @@ Faça o scroll até o campo "Brand"
 
 ![image](https://github.com/user-attachments/assets/f03e3ebc-1073-4f51-889d-987b8b4e1ca9)
 
-3 - Navigate to the public-facing page of the new content:
+5 - Navigate to the public-facing page of the new content:
+
 ![image](https://github.com/user-attachments/assets/72623244-7041-40fb-9991-9b5ade42efb9)
 
 /demo/{page-id}/
 
 The JavaScript code will be executed immediately, confirming the stored XSS.
+![image](https://github.com/user-attachments/assets/df1c8e8e-5551-4280-a928-bd2597098c7c)
+![image](https://github.com/user-attachments/assets/f3faf1cd-ad25-41d7-b0f3-7b3b12cd6d94)
 
 
-VENDOR: https://github.com/automadcms/automad-standard-v1
+VENDOR: https://github.com/automadcms
