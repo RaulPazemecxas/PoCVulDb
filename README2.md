@@ -1,3 +1,18 @@
+VIDEO POC: https://youtu.be/VZs4hmHYaXQ
+
+#📄 PoC for Exploitation: Stored XSS in WeGIA 3.4.0
+
+#Vulnerability Type: Stored Cross-Site Scripting (XSS)
+
+#Affected Application: WeGIA 3.4.0
+
+#Vulnerability Location: /html/matPat/adicionar_categoria.php
+
+#Impact: Persistent execution of arbitrary JavaScript code in the context of the application
+
+PoC for exploitation stored XSS in WeGIA
+
+
 1 - Log in to the platform.:
 
 ![image](https://github.com/user-attachments/assets/76cecfdf-459b-46e0-ba6f-eb770523416f)
