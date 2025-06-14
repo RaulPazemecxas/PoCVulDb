@@ -28,7 +28,7 @@ Steps to Reproduce
 
 ![image](https://github.com/user-attachments/assets/2c011ce2-3259-43a5-9925-aaf20ec7ab2c)
 
-<script>alert('<TEXTVulDB>')</script>
+<script>alert('PoC VulDB My Food Recipe')</script>
 
 3 - Fill the remaining fields with valid data (e.g., category, ingredients, procedure) and click Save changes.
 
