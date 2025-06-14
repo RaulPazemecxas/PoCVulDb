@@ -1,4 +1,4 @@
-# VIDEO POC: 
+# VIDEO POC: https://youtu.be/jaXQWdMOVek
 
 #📄 PoC for Exploitation: Stored XSS Automad flat-file CMS **2.0.0-alpha.37**
 
@@ -21,18 +21,15 @@ Step by Step
 
 2 - Go to "General Data and Files"
 ![image](https://github.com/user-attachments/assets/b1d9a100-8989-472a-9691-a5f44ea42673)
-
-Faça o scroll até o campo "Brand"
 ![image](https://github.com/user-attachments/assets/507052d7-f705-4815-82a9-095d6bd96972)
 
-3 - No campo Brand, insira o payload JavaScript:
+3 -Inject the payload in the Brand field:
 
 ![image](https://github.com/user-attachments/assets/a4e10370-3487-40bc-a8cd-9954e3ae6add)
 
-
 <script>alert('PoC VulDB Automad CMS')</script>
 
-4 - Click em publish
+4 - Click "Publish"
 
 ![image](https://github.com/user-attachments/assets/f03e3ebc-1073-4f51-889d-987b8b4e1ca9)
 
