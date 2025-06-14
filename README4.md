@@ -1,3 +1,6 @@
+VIDEO PoC: https://youtu.be/HLt4Ezuzxaw
+
+
 📌 Stored Cross-Site Scripting (XSS) Vulnerability in My Food Recipe (SourceCodester)
 
 A Stored Cross-Site Scripting (XSS) vulnerability was discovered in the My Food Recipe application developed by SourceCodester. The vulnerability resides in the "Add Recipe" functionality, where user-supplied input is improperly sanitized before being stored and rendered, allowing arbitrary JavaScript to be executed in the context of other users' sessions.
