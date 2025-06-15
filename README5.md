@@ -23,7 +23,7 @@ PoC for exploitation stored XSS in WeGIA
 ![image](https://github.com/user-attachments/assets/1ff05216-feaf-4b55-a2c7-023a411f5672)
 ![image](https://github.com/user-attachments/assets/f04358a6-4318-477e-856b-251678c1f6ae)
 
-3 - On the page /html/matPat/cadastro_produto.php, click the "+" button under the "Tipo" tab.
+3 - On the page /html/matPat/cadastro_entrada.php, click the "+" button under the "Tipo" tab.
 
 ![image](https://github.com/user-attachments/assets/05620740-cc79-4a4c-8274-d712f52e22e5)
 
