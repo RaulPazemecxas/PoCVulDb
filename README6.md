@@ -1,4 +1,4 @@
-VIDEO POC: 
+VIDEO POC: https://youtu.be/7P5YT5MwCjg
 
 #📄 PoC for Exploitation: Stored XSS in WeGIA 3.4.0
 
