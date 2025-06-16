@@ -1,4 +1,4 @@
-VIDEO POC: 
+VIDEO POC: https://youtu.be/1RlctPW0nhw
 
 📄 PoC for Exploitation: Stored XSS in WeGIA 3.4.0
 Vulnerability Type: Stored Cross-Site Scripting (XSS)
