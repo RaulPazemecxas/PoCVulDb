@@ -3,9 +3,13 @@ VIDEO POC: https://youtu.be/FhPQLGorbqA
 📄 Proof of Concept (PoC) for Stored XSS in Student Result Management System 1.0 (SRMS 1.0)
 
 Vulnerability Type: Stored Cross-Site Scripting (XSS)
+
 Affected Application: Student Result Management System 1.0 (SRMS 1.0)
+
 Vulnerable Endpoint: /script/admin/system
+
 Vulnerable Parameter: School Name
+
 Impact: Persistent execution of arbitrary JavaScript in the application context, including for unauthenticated users
 
 🔧 Steps to Reproduce (PoC):
