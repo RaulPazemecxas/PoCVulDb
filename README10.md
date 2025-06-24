@@ -1,4 +1,4 @@
-VIDEO POC: 
+VIDEO POC: https://youtu.be/W648Rq4_DnE
 
 Vulnerability Type: SQL Injection (Union-based / Error-based exfiltration)
 
