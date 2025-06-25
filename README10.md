@@ -64,6 +64,8 @@ Sqlmap identifies the injection point in id_funcionario and confirms that the da
 6 - After processing, sqlmap or manual analysis reveals existing databases, such as information_schema and wegia.
 
 ![image](https://github.com/user-attachments/assets/34720bfa-070c-4afc-b3ca-10f6997a5769)
+![image](https://github.com/user-attachments/assets/ae20df66-b567-4af2-9b38-d0b184d18b00)
+
 
 
 ⚠️ Recommendations & Mitigations
