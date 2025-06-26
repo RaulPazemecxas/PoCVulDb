@@ -1,4 +1,4 @@
-###VIDEO POC:  ###
+###VIDEO POC:  https://youtu.be/NtkxXKrSa6o ###
 **Stored XSS in i-Educar**
 
 **Vulnerability Type:** Stored Cross-Site Scripting (XSS)
@@ -40,6 +40,8 @@ Save and Trigger:
 ![image](https://github.com/user-attachments/assets/e8dd9133-aa06-46d1-8db5-ce544d8c0589)
 ![image](https://github.com/user-attachments/assets/b9192971-dd94-4f8e-8640-6b6c6550f0e9)
 
+**NOTE: FOR THE INJECTED SCRIPT TO BE LOADED, NAVIGATE AMONG THE RECORDS IN THE BOTTOM PAGE TAB**
+![image](https://github.com/user-attachments/assets/c5ecfd15-d4f4-4111-a4b7-b8a8a88551c3)
 
 ⚠️ Recommendations & Mitigations
 
