@@ -1,4 +1,5 @@
-###VIDEO POC:   ###
+###VIDEO POC: https://youtu.be/R6vJIZnjdmE  ###
+
 **Stored XSS in i-Educar**
 
 **Vulnerability Type:** Stored Cross-Site Scripting (XSS)
