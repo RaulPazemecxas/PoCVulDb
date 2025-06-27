@@ -1,9 +1,13 @@
-### VIDEO POC:  https://youtu.be/dOwcn_k2iTE ###
+##### VIDEO POC:  https://youtu.be/dOwcn_k2iTE #####
 
 **Stored XSS — i-Educar Agenda Module**
+
 **Vulnerability Type: Stored Cross-Site Scripting (XSS)**
+
 **Affected Application: i-Educar**
+
 **Module: Agenda (/intranet/agenda.php)**
+
 **Vulnerable Field: agenda_rap_titulo (title of the appointment)**
 
 **🧪 Proof of Concept (PoC) Steps**
