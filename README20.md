@@ -51,4 +51,4 @@ Enter and confirm your new password to complete the reset remotely, without any 
 
 ![image](https://github.com/user-attachments/assets/4c937df0-83ed-4f05-be2c-2533c4727c0b)
 
-
+ORIGINAL Manufacturer Password Reset Process: https://www.mercusys.com/cz/faq-118
